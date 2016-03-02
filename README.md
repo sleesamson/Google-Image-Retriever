@@ -1,1 +1,1 @@
-# Google-Image-Retriever
+# Google-Image-RetrieverVery simple python wrapper for Google Image Search that can filter down by resolution sizes and returns image urls.```pythonir = ImageRetriever('your_api_key', 'cse_id')ir.query('Blackberry 9800', fileType='jpg', dom_color='white')ir.filter_by_resolution(width=300, height=300)```
