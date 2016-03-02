@@ -72,7 +72,6 @@ class ImageRetriever(object):
     def _GET(self):
         self.resp = requests.get(self.google_api, params=self.params)
 
-        print self.resp.url
         if self.resp.status_code != 200:
             raise Exception(error)
 
